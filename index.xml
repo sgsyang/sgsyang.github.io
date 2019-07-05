@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>My New Hugo Site </title>
+		<link>https://sgsyang.github.io/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<author></author>
+		<rights>Copyright (c) 2019</rights>
+		<updated>2019-07-05 15:46:32 &#43;0800 CST</updated>
+		
+		<item>
+			<title>The Road Not Taken</title>
+			<link>https://sgsyang.github.io/post/blog/</link>
+			<pubDate>Fri, 05 Jul 2019 15:46:32 CST</pubDate>
+			<author></author>
+			<guid>https://sgsyang.github.io/post/blog/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sgsyang.github.io/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;BY ROBERT FROST&lt;/p&gt;
+
+&lt;p&gt;Two roads diverged in a yellow wood,&lt;/p&gt;
+
+&lt;p&gt;And sorry I could not travel both&lt;/p&gt;
+
+&lt;p&gt;And be one traveler, long I stood&lt;/p&gt;
+
+&lt;p&gt;And looked down one as far as I could&lt;/p&gt;
+
+&lt;p&gt;To where it bent in the undergrowth;&lt;/p&gt;
+
+&lt;p&gt;Then took the other, as just as fair,
+And having perhaps the better claim,
+Because it was grassy and wanted wear;
+Though as for that the passing there
+Had worn them really about the same,&lt;/p&gt;
+
+&lt;p&gt;And both that morning equally lay
+In leaves no step had trodden black.
+Oh, I kept the first for another day!
+Yet knowing how way leads on to way,
+I doubted if I should ever come back.&lt;/p&gt;
+
+&lt;p&gt;I shall be telling this with a sigh
+Somewhere ages and ages hence:
+Two roads diverged in a wood, and I—
+I took the one less traveled by,
+And that has made all the difference.&lt;/p&gt;
+
+&lt;p&gt;This is my first blog with the help of Hugo&lt;/p&gt;
+
+&lt;p&gt;第一天就发现hugo的换行有问题，加油！&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash;Good night!&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>
