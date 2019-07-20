@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Adam&#39;s Blog</title>
-    <link>http:ps://sgsyang.github.io/post/</link>
+    <link>http://sgsyang.github.io/post/</link>
     <description>Recent content in Posts on Adam&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 20 Jul 2019 15:34:17 +0800</lastBuildDate>
     
-	<atom:link href="http:ps://sgsyang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sgsyang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Learn_python3</title>
-      <link>http:ps://sgsyang.github.io/post/learn_python3/</link>
+      <link>http://sgsyang.github.io/post/learn_python3/</link>
       <pubDate>Sat, 20 Jul 2019 15:34:17 +0800</pubDate>
       
-      <guid>http:ps://sgsyang.github.io/post/learn_python3/</guid>
+      <guid>http://sgsyang.github.io/post/learn_python3/</guid>
       <description>学习learn python 3 hard way 时踩到的一些坑：
 ex49:
 def peek(word_list): if word_list: # this gives me trouble word = word_list[0] return word[0] else: return None
@@ -29,19 +29,19 @@ def skip(): match()</description>
     
     <item>
       <title>Octave</title>
-      <link>http:ps://sgsyang.github.io/post/octave/</link>
+      <link>http://sgsyang.github.io/post/octave/</link>
       <pubDate>Sat, 20 Jul 2019 15:32:47 +0800</pubDate>
       
-      <guid>http:ps://sgsyang.github.io/post/octave/</guid>
+      <guid>http://sgsyang.github.io/post/octave/</guid>
       <description>Octave 使用中踩过的坑</description>
     </item>
     
     <item>
       <title>The Road Not Taken</title>
-      <link>http:ps://sgsyang.github.io/post/blog/</link>
+      <link>http://sgsyang.github.io/post/blog/</link>
       <pubDate>Fri, 05 Jul 2019 15:46:32 +0800</pubDate>
       
-      <guid>http:ps://sgsyang.github.io/post/blog/</guid>
+      <guid>http://sgsyang.github.io/post/blog/</guid>
       <description>BY ROBERT FROST
 Two roads diverged in a yellow wood,
 And sorry I could not travel both

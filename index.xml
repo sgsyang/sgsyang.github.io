@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Adam&#39;s Blog </title>
-		<link>http:ps://sgsyang.github.io/</link>
+		<link>http://sgsyang.github.io/</link>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<author></author>
@@ -10,11 +10,11 @@
 		
 		<item>
 			<title>Learn_python3</title>
-			<link>http:ps://sgsyang.github.io/post/learn_python3/</link>
+			<link>http://sgsyang.github.io/post/learn_python3/</link>
 			<pubDate>Sat, 20 Jul 2019 15:34:17 CST</pubDate>
 			<author></author>
-			<guid>http:ps://sgsyang.github.io/post/learn_python3/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="http:ps://sgsyang.github.io" medium="image" type="image/jpg" width="100" height="100" />
+			<guid>http://sgsyang.github.io/post/learn_python3/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://sgsyang.github.io/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>&lt;p&gt;学习learn python 3 hard way 时踩到的一些坑：&lt;/p&gt;
 
 &lt;p&gt;ex49:&lt;/p&gt;
@@ -68,22 +68,22 @@ MATCH OPERATE
 		
 		<item>
 			<title>Octave</title>
-			<link>http:ps://sgsyang.github.io/post/octave/</link>
+			<link>http://sgsyang.github.io/post/octave/</link>
 			<pubDate>Sat, 20 Jul 2019 15:32:47 CST</pubDate>
 			<author></author>
-			<guid>http:ps://sgsyang.github.io/post/octave/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="http:ps://sgsyang.github.io" medium="image" type="image/jpg" width="100" height="100" />
+			<guid>http://sgsyang.github.io/post/octave/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://sgsyang.github.io/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>&lt;p&gt;Octave 使用中踩过的坑&lt;/p&gt;
 </description>
 		</item>
 		
 		<item>
 			<title>The Road Not Taken</title>
-			<link>http:ps://sgsyang.github.io/post/blog/</link>
+			<link>http://sgsyang.github.io/post/blog/</link>
 			<pubDate>Fri, 05 Jul 2019 15:46:32 CST</pubDate>
 			<author></author>
-			<guid>http:ps://sgsyang.github.io/post/blog/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="http:ps://sgsyang.github.io" medium="image" type="image/jpg" width="100" height="100" />
+			<guid>http://sgsyang.github.io/post/blog/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://sgsyang.github.io/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>&lt;p&gt;BY ROBERT FROST&lt;/p&gt;
 
 &lt;p&gt;Two roads diverged in a yellow wood,&lt;/p&gt;
