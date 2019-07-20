@@ -3,39 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/post/learn_python3/</loc>
-    <lastmod>2019-07-20T15:34:17+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/</loc>
+    <loc>http:ps://sgsyang.github.io/</loc>
     <lastmod>2019-07-20T15:34:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/post/</loc>
+    <loc>http:ps://sgsyang.github.io/post/learn_python3/</loc>
+    <lastmod>2019-07-20T15:34:17+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http:ps://sgsyang.github.io/post/</loc>
     <lastmod>2019-07-20T15:34:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/post/octave/</loc>
+    <loc>http:ps://sgsyang.github.io/post/octave/</loc>
     <lastmod>2019-07-20T15:32:47+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/blog/</loc>
+    <loc>http:ps://sgsyang.github.io/post/blog/</loc>
     <lastmod>2019-07-05T15:46:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http:ps://sgsyang.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http:ps://sgsyang.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
