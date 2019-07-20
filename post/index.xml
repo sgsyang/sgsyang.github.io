@@ -2,21 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://sgsyang.github.io/post/</link>
+    <link>http://example.org/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jul 2019 15:46:32 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jul 2019 15:34:17 +0800</lastBuildDate>
     
-	<atom:link href="https://sgsyang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Learn_python3</title>
+      <link>http://example.org/post/learn_python3/</link>
+      <pubDate>Sat, 20 Jul 2019 15:34:17 +0800</pubDate>
+      
+      <guid>http://example.org/post/learn_python3/</guid>
+      <description>学习learn python 3 hard way 时踩到的一些坑：
+ex49:
+def peek(word_list): if word_list: # this gives me trouble word = word_list[0] return word[0] else: return None
+if word_list 不为空，则返回true Because of the implicit booleanness of the empty list is quite pythonic
+strings of length &amp;gt;= 1 are Truthy. empty strings are Falsy. lists of length &amp;gt;= 1 are Truthy.
+None is Falsy.
+在python3.7中，只要函数没有写return，则其返回值默认为none嗷 哪怕调用其他函数,其他函数会执行，但是返回值还是none 例子： def match(): print(&amp;ldquo;MATCH OPERATE&amp;rdquo;) return 99
+def skip(): match()</description>
+    </item>
+    
+    <item>
+      <title>Octave</title>
+      <link>http://example.org/post/octave/</link>
+      <pubDate>Sat, 20 Jul 2019 15:32:47 +0800</pubDate>
+      
+      <guid>http://example.org/post/octave/</guid>
+      <description>Octave 使用中踩过的坑</description>
+    </item>
+    
+    <item>
       <title>The Road Not Taken</title>
-      <link>https://sgsyang.github.io/post/blog/</link>
+      <link>http://example.org/post/blog/</link>
       <pubDate>Fri, 05 Jul 2019 15:46:32 +0800</pubDate>
       
-      <guid>https://sgsyang.github.io/post/blog/</guid>
+      <guid>http://example.org/post/blog/</guid>
       <description>BY ROBERT FROST
 Two roads diverged in a yellow wood,
 And sorry I could not travel both

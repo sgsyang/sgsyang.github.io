@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Tags &bullet; My New Hugo Site</title>
+		<title>Learn_python3</title>
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="http://example.org/index.xml">
-		<link rel="canonical" href="http://example.org/tags/">
+		<link rel="canonical" href="http://example.org/post/learn_python3/">
 		
 		<link rel="shortcut icon" type="image/png" href="http://example.org/apple-touch-icon-precomposed.png">
 		
@@ -13,7 +13,15 @@
 		<meta name="generator" content="Hugo 0.55.6" />
 
 		
-		
+		<meta property="og:title" content="Learn_python3" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="http://example.org/img/default-header-img.jpg" />
+		<meta property="og:description" content="" />
+		<meta property="og:url" content="http://example.org/post/learn_python3/" />
+		<meta property="og:site_name" content="Learn_python3" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
 
 		
 		<link rel="stylesheet" href="http://example.org/css/tachyons.min.css" />
@@ -29,7 +37,7 @@
 		<script src="http://example.org/js/story.js"></script>
 
 	</head>
-	<body class="ma0 bg-white section-tags page-kind-taxonomyTerm is-page-false ">
+	<body class="ma0 bg-white section-post page-kind-page is-page-true ">
 		
 		<header class="cover bg-top" style="background-image: url('http://example.org/img/default-header-img.jpg'); background-position: center;">
 			<div class="bg-black-30 bb bt">
@@ -45,10 +53,16 @@
 				</nav>
 
 				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
-					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Tags</h1>
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Learn_python3</h1>
 					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
 						
 						
+							
+								Published
+								<time datetime="2019-07-20T15:34:17&#43;08:00">Jul 20, 2019</time>
+								<span class="display-print">by </span>
+								
+								<span class="display-print">at http://example.org/post/learn_python3/</span>
 							
 						
 					</h2>
@@ -64,15 +78,57 @@
 		
 		<main role="main">
 		
-<div class="pa3 pa4-ns w-100 w-70-ns center">
-  <section class="w-100 mw8">
-  
-  
-  
-    
-  
-  </section>
-</div>
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>学习learn python 3 hard way 时踩到的一些坑：</p>
+
+<p>ex49:</p>
+
+<p>def peek(word_list):
+    if word_list:   # this gives me trouble
+        word = word_list[0]
+        return word[0]
+    else:
+        return None</p>
+
+<p>if word_list 不为空，则返回true
+Because of the implicit booleanness of the empty list is quite pythonic</p>
+
+<p>strings of length &gt;= 1 are Truthy.
+empty strings are Falsy.
+lists of length &gt;= 1 are Truthy.</p>
+
+<p>None is Falsy.</p>
+
+<p>在python3.7中，只要函数没有写return，则其返回值默认为none嗷
+哪怕调用其他函数,其他函数会执行，但是返回值还是none
+例子：
+def match():
+    print(&ldquo;MATCH OPERATE&rdquo;)
+    return 99</p>
+
+<p>def skip():
+  match()</p>
+
+<p>print(skip())
+其输出为：
+MATCH OPERATE
+None</p>
+
+<p>如果将代码改成
+def match():
+    print(&ldquo;MATCH OPERATE&rdquo;)
+    return 99</p>
+
+<p>def skip():
+  return match() #此处加了return</p>
+
+<p>print(skip())</p>
+
+<p>其输出变成：
+MATCH OPERATE
+99</p>
+
+</article>
 
 		</main>
 		
@@ -80,6 +136,9 @@
 		<div class="about-the-author">
 		
 			
+			
+				
+					
 				
 			
 		
@@ -89,11 +148,6 @@
 
 		
 		
-<footer class="w-100 sans-serif" role="contentinfo">
-	<nav class="w-third-l pb3 f6 center db" role="navigation">
-</nav>
-</footer>
-
 		
 		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
 			<p class="w-50 fr tr">

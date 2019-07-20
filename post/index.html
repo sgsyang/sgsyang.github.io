@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Post &bullet; My New Hugo Site</title>
-		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://sgsyang.github.io/index.xml">
-		<link rel="canonical" href="https://sgsyang.github.io/post/">
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="http://example.org/index.xml">
+		<link rel="canonical" href="http://example.org/post/">
 		
-		<link rel="shortcut icon" type="image/png" href="https://sgsyang.github.io/apple-touch-icon-precomposed.png">
+		<link rel="shortcut icon" type="image/png" href="http://example.org/apple-touch-icon-precomposed.png">
 		
 		
 		<meta name="generator" content="Hugo 0.55.6" />
@@ -16,9 +16,9 @@
 		
 
 		
-		<link rel="stylesheet" href="https://sgsyang.github.io/css/tachyons.min.css" />
-		<link rel="stylesheet" href="https://sgsyang.github.io/css/story.css" />
-		<link rel="stylesheet" href="https://sgsyang.github.io/css/descartes.css" />
+		<link rel="stylesheet" href="http://example.org/css/tachyons.min.css" />
+		<link rel="stylesheet" href="http://example.org/css/story.css" />
+		<link rel="stylesheet" href="http://example.org/css/descartes.css" />
 		
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
@@ -26,21 +26,21 @@
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		
-		<script src="https://sgsyang.github.io/js/story.js"></script>
+		<script src="http://example.org/js/story.js"></script>
 
 	</head>
 	<body class="ma0 bg-white section-post page-kind-section is-page-false ">
 		
-		<header class="cover bg-top" style="background-image: url('https://sgsyang.github.io/img/default-header-img.jpg'); background-position: center;">
+		<header class="cover bg-top" style="background-image: url('http://example.org/img/default-header-img.jpg'); background-position: center;">
 			<div class="bg-black-30 bb bt">
 
 				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
-					<a href="https://sgsyang.github.io/" title="Home">
-						<img src="https://sgsyang.github.io/img/logo.jpg" class="w2 h2 br-100" alt="My New Hugo Site" />
+					<a href="http://example.org/" title="Home">
+						<img src="http://example.org/img/logo.jpg" class="w2 h2 br-100" alt="My New Hugo Site" />
 					</a>
 					<div class="fr h2 pv2 tr">
-						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://sgsyang.github.io/index.xml" title="RSS Feed"></a>
-						<a class="link f5 ml2 dim near-white fas fa-search" href="https://sgsyang.github.io/search/" role="search" title="Search"></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="http://example.org/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="http://example.org/search/" role="search" title="Search"></a>
 					</div>
 				</nav>
 
@@ -75,14 +75,73 @@
 		<div class="db pv4 ph3 ph0-l no-underline dark-gray">
 			<div class="flex flex-column flex-row-ns">
 				
-				<div class="mb4 mb0-ns w-100 h4 h4-m w4-m h5-ns w5-ns br3 cover hide-child" style="background-image: url('https://sgsyang.github.io/img/default-header-img.tn-500x500.jpg'); background-position: center;">
-					<a href="https://sgsyang.github.io/post/blog/" class="sans-serif db child w-100 h-100 f7 lh-copy white no-underline br3 ph3 pt4 pt5-l ttu tc bg-black-60">
+				<div class="mb4 mb0-ns w-100 h4 h4-m w4-m h5-ns w5-ns br3 cover hide-child" style="background-image: url('http://example.org/img/default-header-img.tn-500x500.jpg'); background-position: center;">
+					<a href="http://example.org/post/learn_python3/" class="sans-serif db child w-100 h-100 f7 lh-copy white no-underline br3 ph3 pt4 pt5-l ttu tc bg-black-60">
+						<i class="mt3 mt5-l child far fa-calendar-alt"></i> Jul 20, 2019
+					</a>
+				</div>
+				
+				<div class="w-100 w6-ns pl3-ns">
+					<h1 class="f3 fw1 mt0 lh-title"><a href="http://example.org/post/learn_python3/" class="color-inherit dim link">Learn_python3</a></h1>
+					<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+						
+							学习learn python 3 hard way 时踩到的一些坑：
+ex49:
+def peek(word_list): if word_list: # this gives me trouble word = word_list[0] return word[0] else: return None
+if word_list 不为空，则返回true Because of the implicit booleanness of the empty list is quite pythonic
+strings of length &gt;= 1 are Truthy. empty strings are Falsy. lists of length &gt;= 1 are Truthy.
+None is Falsy.
+在python3.7中，只要函数没有写return，则其返回值默认为none嗷 哪怕调用其他函数,其他函数会执行，但是返回值还是none 例子： def match(): print(&ldquo;MATCH OPERATE&rdquo;) return 99
+def skip(): match()
+							<p class="pa0 sans-serif f7"><a class="ba br3 pa2 link" href="http://example.org/post/learn_python3/">Continue Reading <i class="fas fa-chevron-circle-right"></i></a></p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+</div>
+
+    
+      <div class="relative w-100">
+	<article>
+		<div class="db pv4 ph3 ph0-l no-underline dark-gray">
+			<div class="flex flex-column flex-row-ns">
+				
+				<div class="mb4 mb0-ns w-100 h4 h4-m w4-m h5-ns w5-ns br3 cover hide-child" style="background-image: url('http://example.org/img/default-header-img.tn-500x500.jpg'); background-position: center;">
+					<a href="http://example.org/post/octave/" class="sans-serif db child w-100 h-100 f7 lh-copy white no-underline br3 ph3 pt4 pt5-l ttu tc bg-black-60">
+						<i class="mt3 mt5-l child far fa-calendar-alt"></i> Jul 20, 2019
+					</a>
+				</div>
+				
+				<div class="w-100 w6-ns pl3-ns">
+					<h1 class="f3 fw1 mt0 lh-title"><a href="http://example.org/post/octave/" class="color-inherit dim link">Octave</a></h1>
+					<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+						
+							Octave 使用中踩过的坑
+							<p class="pa0 sans-serif f7"><a class="ba br3 pa2 link" href="http://example.org/post/octave/">Continue Reading <i class="fas fa-chevron-circle-right"></i></a></p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+</div>
+
+    
+      <div class="relative w-100">
+	<article>
+		<div class="db pv4 ph3 ph0-l no-underline dark-gray">
+			<div class="flex flex-column flex-row-ns">
+				
+				<div class="mb4 mb0-ns w-100 h4 h4-m w4-m h5-ns w5-ns br3 cover hide-child" style="background-image: url('http://example.org/img/default-header-img.tn-500x500.jpg'); background-position: center;">
+					<a href="http://example.org/post/blog/" class="sans-serif db child w-100 h-100 f7 lh-copy white no-underline br3 ph3 pt4 pt5-l ttu tc bg-black-60">
 						<i class="mt3 mt5-l child far fa-calendar-alt"></i> Jul 5, 2019
 					</a>
 				</div>
 				
 				<div class="w-100 w6-ns pl3-ns">
-					<h1 class="f3 fw1 mt0 lh-title"><a href="https://sgsyang.github.io/post/blog/" class="color-inherit dim link">The Road Not Taken</a></h1>
+					<h1 class="f3 fw1 mt0 lh-title"><a href="http://example.org/post/blog/" class="color-inherit dim link">The Road Not Taken</a></h1>
 					<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
 						
 							BY ROBERT FROST
@@ -92,7 +151,7 @@ And be one traveler, long I stood
 And looked down one as far as I could
 To where it bent in the undergrowth;
 Then took the other, as just as fair, And having perhaps the better claim, Because it was grassy and wanted wear; Though as for that the passing there Had worn them really about the same,
-							<p class="pa0 sans-serif f7"><a class="ba br3 pa2 link" href="https://sgsyang.github.io/post/blog/">Continue Reading <i class="fas fa-chevron-circle-right"></i></a></p>
+							<p class="pa0 sans-serif f7"><a class="ba br3 pa2 link" href="http://example.org/post/blog/">Continue Reading <i class="fas fa-chevron-circle-right"></i></a></p>
 						
 					</div>
 				</div>
@@ -129,7 +188,7 @@ Then took the other, as just as fair, And having perhaps the better claim, Becau
 		
 		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
 			<p class="w-50 fr tr">
-			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://sgsyang.github.io/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="http://example.org/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
 			</p>
 			<p class="w-50 near-white">
 				&copy; 2019 

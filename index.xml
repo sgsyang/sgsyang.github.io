@@ -1,20 +1,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>My New Hugo Site </title>
-		<link>https://sgsyang.github.io/</link>
+		<link>http://example.org/</link>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<author></author>
 		<rights>Copyright (c) 2019</rights>
-		<updated>2019-07-05 15:46:32 &#43;0800 CST</updated>
+		<updated>2019-07-20 15:34:17 &#43;0800 CST</updated>
+		
+		<item>
+			<title>Learn_python3</title>
+			<link>http://example.org/post/learn_python3/</link>
+			<pubDate>Sat, 20 Jul 2019 15:34:17 CST</pubDate>
+			<author></author>
+			<guid>http://example.org/post/learn_python3/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;学习learn python 3 hard way 时踩到的一些坑：&lt;/p&gt;
+
+&lt;p&gt;ex49:&lt;/p&gt;
+
+&lt;p&gt;def peek(word_list):
+    if word_list:   # this gives me trouble
+        word = word_list[0]
+        return word[0]
+    else:
+        return None&lt;/p&gt;
+
+&lt;p&gt;if word_list 不为空，则返回true
+Because of the implicit booleanness of the empty list is quite pythonic&lt;/p&gt;
+
+&lt;p&gt;strings of length &amp;gt;= 1 are Truthy.
+empty strings are Falsy.
+lists of length &amp;gt;= 1 are Truthy.&lt;/p&gt;
+
+&lt;p&gt;None is Falsy.&lt;/p&gt;
+
+&lt;p&gt;在python3.7中，只要函数没有写return，则其返回值默认为none嗷
+哪怕调用其他函数,其他函数会执行，但是返回值还是none
+例子：
+def match():
+    print(&amp;ldquo;MATCH OPERATE&amp;rdquo;)
+    return 99&lt;/p&gt;
+
+&lt;p&gt;def skip():
+  match()&lt;/p&gt;
+
+&lt;p&gt;print(skip())
+其输出为：
+MATCH OPERATE
+None&lt;/p&gt;
+
+&lt;p&gt;如果将代码改成
+def match():
+    print(&amp;ldquo;MATCH OPERATE&amp;rdquo;)
+    return 99&lt;/p&gt;
+
+&lt;p&gt;def skip():
+  return match() #此处加了return&lt;/p&gt;
+
+&lt;p&gt;print(skip())&lt;/p&gt;
+
+&lt;p&gt;其输出变成：
+MATCH OPERATE
+99&lt;/p&gt;
+</description>
+		</item>
+		
+		<item>
+			<title>Octave</title>
+			<link>http://example.org/post/octave/</link>
+			<pubDate>Sat, 20 Jul 2019 15:32:47 CST</pubDate>
+			<author></author>
+			<guid>http://example.org/post/octave/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Octave 使用中踩过的坑&lt;/p&gt;
+</description>
+		</item>
 		
 		<item>
 			<title>The Road Not Taken</title>
-			<link>https://sgsyang.github.io/post/blog/</link>
+			<link>http://example.org/post/blog/</link>
 			<pubDate>Fri, 05 Jul 2019 15:46:32 CST</pubDate>
 			<author></author>
-			<guid>https://sgsyang.github.io/post/blog/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sgsyang.github.io/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<guid>http://example.org/post/blog/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>&lt;p&gt;BY ROBERT FROST&lt;/p&gt;
 
 &lt;p&gt;Two roads diverged in a yellow wood,&lt;/p&gt;
